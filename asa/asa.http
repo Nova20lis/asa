@@ -1,0 +1,11 @@
+@asa_HostAddress = http://localhost:5183
+
+GET {{asa_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{asa_HostAddress}}/todos/1
+Accept: application/json
+
+###
